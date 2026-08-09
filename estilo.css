@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
+
+
+body {
+  margin: 1;
+  background: #eee;
+  font-family: Bitcount ink, serif;
+}
+
+.logo {
+  max-width: 100px;    
+  padding: 10px;
+}
+
+.header {
+  background-color: hsl(0, 29%, 90%);
+  border-bottom: 1px solid;
+  box-shadow: 0 0 10px hsl(0, 0%, 0%);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 20px;
+}
+
+.nav a:hover,
+  footer a:hover {
+  background-color: hsl(33, 100%, 70%);
+  border-radius: 3px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+  /* HeroB style */
+
+.hero-body {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(0, 2%, 88%);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  width: 40%;
+}
+
+button {
+  font-size: 15px;
+  background-color: hsl(33, 100%, 82%);
+  width: 90px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+}
+
+.card img {
+  border: 1px solid;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-radius: 15px;
+  box-shadow: 0 8px 10px white;
+}
+.card p{
+  font-size: 18px;
+  text-align: center;
+}
