@@ -58,6 +58,11 @@ ul {
   background-color: hsl(0, 2%, 88%);
 }
 
+.hero-body img {
+  border-radius: 20px;
+  border: 1px solid black
+}
+
 .hero-content {
   display: flex;
   flex-direction: column;
