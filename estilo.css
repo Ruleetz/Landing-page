@@ -106,9 +106,74 @@ h2 {
 .card:hover {
   transform: translateY(-5px);
   border-radius: 15px;
-  box-shadow: 0 8px 10px white;
+  box-shadow: 0 5px 5px;
+  margin-bottom: 3px;
 }
 .card p{
   font-size: 18px;
   text-align: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 7%, 94%);
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.quote div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 55%;
+}
+
+.quotext {
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.signup-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
+  padding: 15px;
+  background-color: hsl(0, 2%, 88%);
+  border-radius: 10px;
+  width: 70%;
+  color: #d9dce2;
+}
+
+.su-text {
+  text-align: center;
+  padding: 5px;
+}
+
+.ctr button {
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: hsl(240, 68%, 78%);
+}
+
+.ctr button:hover {
+  background-color: hsl(220, 13%, 87%);
 }
