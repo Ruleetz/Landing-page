@@ -104,10 +104,10 @@ h2 {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(8px);
   border-radius: 15px;
-  box-shadow: 0 5px 5px;
-  margin-bottom: 3px;
+  box-shadow: 0;
+  margin-bottom: 1px;
 }
 .card p{
   font-size: 18px;
