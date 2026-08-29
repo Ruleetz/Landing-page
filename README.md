@@ -2,7 +2,7 @@
 
 This page was made as a project from The Odin Project.
 
-HTML and CSS was used to create this webpage. I used the main structure that The Odin Project provided but changing fonts, colors, effects, etc to make my own style.
+HTML and CSS was used to create this webpage. I used the main structure that The Odin Project provided but changing fonts, colors, effects, etc to practice and create my own style.
 
 ##  Images credits
 
