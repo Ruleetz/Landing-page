@@ -5,7 +5,7 @@
 body {
   margin: 1;
   background: #eee;
-  font-family: Bitcount ink, serif;
+  font-family: Inter, serif;
 }
 
 .logo {
@@ -44,6 +44,7 @@ ul {
 .topbar {
   display: flex;
   align-items: center;
+  font-family: bitcount ink;
   padding: 20px;
   gap: 10px;
 }
@@ -56,6 +57,10 @@ ul {
   justify-content: space-around;
   align-items: center;
   background-color: hsl(0, 2%, 88%);
+}
+
+h1 {
+  font-family: bitcount ink ;
 }
 
 .hero-body img {
@@ -95,6 +100,10 @@ h2 {
 
 .card {
   width: 200px;
+}
+
+.card-section h2 {
+  font-family: bitcount ink;
 }
 
 .card img {
@@ -159,7 +168,7 @@ h2 {
   background-color: hsl(0, 2%, 88%);
   border-radius: 10px;
   width: 70%;
-  color: #d9dce2;
+  color: #020202;
 }
 
 .su-text {
@@ -177,3 +186,14 @@ h2 {
 .ctr button:hover {
   background-color: hsl(220, 13%, 87%);
 }
+
+.footer {
+  background-color: hsl(0, 2%, 82%);
+}
+
+.footer p {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 20px;
+} 
